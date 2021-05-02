@@ -12,7 +12,7 @@ function App() {
   console.log(carsArray);
   return (
     <div>
-    <CarsView></CarsView>
+    <CarsView carsData={carsArray}></CarsView>
     </div>
   );
 }
